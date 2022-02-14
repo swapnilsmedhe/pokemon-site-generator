@@ -1,0 +1,181 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.sidebar {
+  background-color: rgb(244, 244, 244);
+  width: 20%;
+  height: 100%;
+  font-size: 22px;
+  padding-top: 30px;
+  position: fixed;
+}
+
+.sidebar li {
+  padding: 0.3em 1.2em;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+  display: block;
+}
+
+main {
+  margin-left: 20%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.pokemon-card {
+  width: 300px;
+  padding: 0.7em;
+  background-color: rgb(244, 244, 244);
+  color: rgb(110, 110, 110);
+  border: 2px solid hsla(0, 0%, 75%, 1);
+  border-radius: 8px;
+  text-transform: capitalize; /* Remove it later */
+}
+
+.pokemon-image {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-details {
+  margin-top: 0.7em;
+}
+
+.pokemon-details > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokemon-type {
+  display: flex;
+  column-gap: 0.3em;
+}
+
+.pokemon-type > div {
+  color: white;
+  padding: 0.2em;
+  border-radius: 3px;
+}
+
+.pokemon-stats {
+  width: 100%;
+  margin-top: 0.8em;
+  border-collapse: collapse;
+  color: hsla(0, 0%, 55%, 1);
+}
+
+.pokemon-stats th ,
+.pokemon-stats td {
+  padding: 0.3em 0em;
+}
+
+.pokemon-stats th {
+  text-align: left;
+}
+
+.pokemon-stats td {
+  text-align: right;
+}
+
+.pokemon-stats tr:nth-child(n+2) {
+  border-top: 2px solid hsla(0, 0%, 84%, 1);
+}
+
+.type {
+  color: white;
+}
+
+.selected a {
+  color: white;
+}
+
+.grass {
+  background-color: mediumseagreen;
+}
+
+.poison {
+  background-color: mediumpurple;
+}
+
+.fire {
+  background-color: goldenrod;
+}
+
+.flying {
+  background-color: steelblue;
+}
+
+.water {
+  background-color: dodgerblue;
+}
+
+.bug {
+  background-color: brown;
+}
+
+.normal {
+  background-color: gray;
+}
+
+.ground {
+  background-color: peru;
+}
+
+.fairy {
+  background-color: hotpink;
+}
+
+.fighting {
+  background-color: crimson;
+}
+
+.electric {
+  background-color: hsl(51deg 73% 50%);
+}
+
+.psychic {
+  background-color: orange;
+}
+
+.rock {
+  background-color: dimgray;
+}
+
+.ice {
+  background-color: darkcyan;
+}
+
+.dragon {
+  background-color: mediumaquamarine;
+}
+
+.ghost {
+  background-color: black;
+}
+
+.dark {
+  background-color: slategray;
+}
+
+.steel {
+  background-color: steelblue;
+}
+
+.all {
+  background-color: dimgray;
+}
